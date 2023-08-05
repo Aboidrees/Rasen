@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 
-const articleImage = require('../../../assets/images/horse.png');
+const articleImage = require('../../../../assets/images/horse.png');
 
 export default function Article({article, onPress}) {
     const [isBookmarked, setIsBookmarked] = useState(false);
@@ -74,11 +74,11 @@ const styles = StyleSheet.create({
         fontSize: 12,
         fontStyle: 'normal',
         fontWeight: '500',
-        flexGrow:2
+        flexGrow:3
     },
     articleTitle: {
         fontFamily: 'Montserrat',
-        fontSize: 16,
+        fontSize: 14,
         lineHeight: 18,
         letterSpacing: 0,
         fontWeight: '600',

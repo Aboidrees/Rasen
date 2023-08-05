@@ -4,7 +4,7 @@ import * as React from 'react';
 export default function Advertisements() {
   return (
     <Image
-      source={require('../../../assets/images/advertise1.png')}
+      source={require('../../../../assets/images/advertise1.png')}
       style={{
         width: 'auto',
         height: 175,

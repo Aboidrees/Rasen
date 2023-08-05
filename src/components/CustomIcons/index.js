@@ -10,5 +10,6 @@ export {default as Horse} from './HorseIcon';
 export {default as Trash} from './Trash';
 export {default as Share} from './Share';
 export {default as Like} from './Like';
+export {default as Tune} from './Tune';
 export {default as Send} from './Send';
 export {default as Eye} from './Eye';
